@@ -1,5 +1,9 @@
 # Invoke-Totem
-![Logo](Logo.png)
+
+<h1 align="center">
+  <img src="Logo.png" alt="Invoke-Token Logo" width=300>
+</h1>
+
 
 **Invoke-Totem** is a PowerShell script that allows obtaining and impersonating the access token of another process on the system, executing commands under the context of the associated user. This can be useful in post-exploitation scenarios, penetration testing, restricted network environments, or for developers interested in understanding the Windows security model.
 
