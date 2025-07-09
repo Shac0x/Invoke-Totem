@@ -93,6 +93,12 @@ Invoke-TotemReset
 
 ---
 
+## 🎬 Demo
+
+![Demo](Demo.gif)
+
+---
+
 ## 🔍 How it works
 
 The script performs the following steps:
