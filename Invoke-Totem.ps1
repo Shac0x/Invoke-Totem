@@ -1,3 +1,19 @@
+<#
+.SYNOPSIS
+    Token impersonation in PowerShell to execute under the context of another user.
+
+.DESCRIPTION
+    This script allows you to impersonate another user and execute commands or scripts under their security context.
+
+.USAGE
+    Import the script and run the function with the ID of the process of the user you want to impersonate:
+
+        . .\Invoke-Totem.ps1
+        Invoke-Totem -processID <Process ID>
+
+    > Use only where you have authorization.
+#>
+
 Add-Type -TypeDefinition @"
 using System;
 using System.Runtime.InteropServices;
