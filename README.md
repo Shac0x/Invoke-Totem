@@ -30,6 +30,11 @@
 
 ## 🧪 Usage
 
+> When running the script, it is recommended to open PowerShell with the -STA flag to ensure that the script runs in a single thread:
+> ```powershell
+> powershell.exe -STA 
+> ```
+
 ### 1. Import the script:
 
 ```powershell
